@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name</title>
+</head>
+
+<body>
+    <form method='POST'>
+        <h2>Please input your name:</h2>
+        <input type="text" name="firstname" value="First name">
+        <input type="text" name="secondname" value="Second name">
+        <input type="submit" value="Submit Name">
+    </form>
+</body>
+
+<?php
+$firstname = $_POST['firstname'];
+$secondname = $_POST['secondname'];
+echo "<h3> Hello $firstname $secondname</h3>";
+?>
+
+</html>
