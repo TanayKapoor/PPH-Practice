@@ -6,7 +6,7 @@
 
 <body>
     <h1> Display the detail on html page</h1>
-    <form action="< URLof 2nd Page >" method="get">
+    <form action="/PPH-Practice/Name%20get%20method/page2.php" method="get">
         <label>Enter the first name:</label>
         <input type="text" name='fname'><br><br>
         <label>Enter the Second name:</label>

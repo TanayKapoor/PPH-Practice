@@ -22,11 +22,11 @@ if ($_POST) {
         echo "$number smaller than 10";
     } else if (($number > 10)) {
         echo "$number greater than 10";
-    }
-    else{
+    } else {
         echo "$number is equal to 10";
     }
 }
 
 ?>
+
 </html>
