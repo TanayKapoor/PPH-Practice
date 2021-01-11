@@ -6,7 +6,7 @@
 
 <body>
     <h1> Display the detail on html page</h1>
-    <form name="marks" method="post" action="page2.php">>
+    <form name="marks" method="post" action="page2.php">
         <label>Enter the your name:</label>
         <input type="text" name='fname'><br><br>
         <label>Enter tour marks in fisrt subject: </label>
