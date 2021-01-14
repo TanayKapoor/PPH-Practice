@@ -6,5 +6,5 @@ sort($numbers);
 $arrlength = count($numbers);
 for ($x = 0; $x < $arrlength; $x++) {
     echo $numbers[$x];
-    echo "<br>";
+    echo "\n";
 }
