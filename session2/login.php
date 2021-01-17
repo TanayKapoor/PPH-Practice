@@ -2,7 +2,7 @@
 session_start();
 if (!empty($_POST) && $_POST['user'] === 'tanay' && $_POST['pass'] === 'abcd') {
     $_SESSION['logged_in'] = true;
-    header('Location: /index.php');
+    header('Location: /PPH-Practice/session2/index.php');
 } else {
 ?>
 

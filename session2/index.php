@@ -4,7 +4,7 @@ if (!empty($_SESSION['logged_in'])) {
 ?>
 
     <p>here is my super-secret content</p>
-    <a href='logout.php'>Click here to log out</a>
+    <a href='/PPH-Practice/session2/logout.php'>Click here to log out</a>
 
 <?php
 } else {
